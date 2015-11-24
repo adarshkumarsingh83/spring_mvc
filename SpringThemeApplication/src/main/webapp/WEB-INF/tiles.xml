@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+        @author Adarsh
+        @author $LastChangedBy: adarsh $
+        @version $Revision: 0000 $, $Date:: 1/1/11 00:00 AM#$
+-->
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="base.definition"
+                template="/WEB-INF/style/layout.jsp">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="header" value="/WEB-INF/style/header.jsp"/>
+        <put-attribute name="option" value="/WEB-INF/style/option.jsp"/>
+        <put-attribute name="menu" value="/WEB-INF/style/menu.jsp"/>
+        <put-attribute name="body" value=""/>
+        <put-attribute name="footer" value="/WEB-INF/style/footer.jsp"/>
+    </definition>
+
+    <definition name="registrationForm" extends="base.definition">
+        <put-attribute name="title" value="Registration Form"/>
+        <put-attribute name="body" value="/WEB-INF/views/registrationForm.jsp"/>
+    </definition>
+
+    <definition name="registrationStatus" extends="base.definition">
+        <put-attribute name="title" value="Registration Status"/>
+        <put-attribute name="body" value="/WEB-INF/views/registrationStatus.jsp"/>
+    </definition>
+
+</tiles-definitions>

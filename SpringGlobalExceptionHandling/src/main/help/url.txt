@@ -1,0 +1,7 @@
+http://localhost:8080/SpringGlobalExceptionHandling/ae1
+http://localhost:8080/SpringGlobalExceptionHandling/ae2
+http://localhost:8080/SpringGlobalExceptionHandling/ae3
+http://localhost:8080/SpringGlobalExceptionHandling/ae4
+http://localhost:8080/SpringGlobalExceptionHandling/io
+http://localhost:8080/SpringGlobalExceptionHandling/e
+http://localhost:8080/SpringGlobalExceptionHandling/run

@@ -1,0 +1,17 @@
+
+url=http://localhost:8080/SpringMvcRestGlobalExceptionHandling/rest/emp/create
+set the header param value
+Content-Type : application/json
+{"id":"101","name":"adarsh kumar","createdDate":"1223334444"}
+
+
+url=http://localhost:8080/SpringMvcRestGlobalExceptionHandling/rest/emp/update
+set the header param value
+Content-Type : application/json
+{"id":"101","name":"adarsh kumar","createdDate":"1223335555"}
+
+url=http://localhost:8080/SpringMvcRestGlobalExceptionHandling/rest/emp/101
+
+url=http://localhost:8080/SpringMvcRestGlobalExceptionHandling/rest/emps
+
+url=http://localhost:8080/SpringMvcRestGlobalExceptionHandling/rest/emp/delete/101

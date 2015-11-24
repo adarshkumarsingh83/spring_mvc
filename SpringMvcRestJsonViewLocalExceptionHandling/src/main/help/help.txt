@@ -1,0 +1,35 @@
+
+http://localhost:8080/SpringMvcRestJsonViewLocalExceptionHandling/employee/{employeeId}/data
+http://localhost:8080/SpringMvcRestJsonViewLocalExceptionHandling/employee/{employeeId}
+http://localhost:8080/SpringMvcRestJsonViewLocalExceptionHandling/employee/detail/all
+http://localhost:8080/SpringMvcRestJsonViewLocalExceptionHandling/employee/detail/{employeeId}/data
+
+http://localhost:8080/SpringMvcRestJsonViewLocalExceptionHandling/department/all
+http://localhost:8080/SpringMvcRestJsonViewLocalExceptionHandling/department/{departmentId}
+
+
+http://localhost:8080/SpringMvcRestJsonViewLocalExceptionHandling/employee/save
+post request
+set the following in the header part of the request
+Content-Type:application/json
+Accept:application/json
+
+{
+        "employeeId": 101,
+        "employeeName": "adarsh kumar",
+        "employeeEmail": "adarsh@kumar",
+        "department": {
+            "departmentId": 10,
+            "departmentLocation": "INDIA"
+        }
+}
+
+http://localhost:8080/SpringMvcRestJsonViewLocalExceptionHandling/department/save
+post request
+set the following in the header part of the request
+Content-Type:application/json
+Accept:application/json
+{
+    "departmentId": 100,
+    "departmentLocation": "INDIA"
+}
