@@ -1,4 +1,0 @@
-mvn clean install
-mvn package
-mvn jetty:run
-http://localhost:8080/EmbededJettyServerSpringMvcExmaple/welcome.do
