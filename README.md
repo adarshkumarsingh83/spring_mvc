@@ -7,4 +7,5 @@ EMAIL : ADARSHKUMARSINGH83@GMAIL.COM
 
 SPRING MVC   
 ---------------------------------------------
+- Spring Web Mvc Xml Example
 - Spring Mvc Rest Swagger Example
