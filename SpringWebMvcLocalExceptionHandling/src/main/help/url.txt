@@ -1,0 +1,13 @@
+mvn clean package
+mvn jetty:run
+
+http://localhost:8080/SpringWebMvcLocalExceptionHandling/
+http://localhost:8080/SpringWebMvcLocalExceptionHandling/index
+
+http://localhost:8080/SpringWebMvcLocalExceptionHandling/ae1
+http://localhost:8080/SpringWebMvcLocalExceptionHandling/ae2
+http://localhost:8080/SpringWebMvcLocalExceptionHandling/ae3
+http://localhost:8080/SpringWebMvcLocalExceptionHandling/ae4
+http://localhost:8080/SpringWebMvcLocalExceptionHandling/io
+http://localhost:8080/SpringWebMvcLocalExceptionHandling/e
+http://localhost:8080/SpringWebMvcLocalExceptionHandling/run
