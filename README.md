@@ -7,6 +7,7 @@ EMAIL : ADARSHKUMARSINGH83@GMAIL.COM
 
 SPRING MVC   
 ---------------------------------------------
+- Spring Web Mvc Global Exception Handling
 - Spring Web Mvc Local Exception Handling
 - Spring Mvc Rest Annotation Example
 - Spring Mvc Rest Xml Example
