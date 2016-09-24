@@ -1,0 +1,23 @@
+mvn clean package -Dmaven.test.skip=true
+mvn jetty:run
+
+
+url=http://localhost:8080/SpringMvcRestAnnotationExample/index.jsp
+url=http://localhost:8080/SpringMvcRestAnnotationExample/home
+--------------------------------------------------------------
+
+url=http://localhost:8080/SpringMvcRestAnnotationExample/rest/emps
+
+post url=http://localhost:8080/SpringMvcRestAnnotationExample/rest/emp/create
+set the header param value
+Content-Type : application/json
+{"id":"11","name":"adarsh kumar","createdDate":"1223334444"}
+
+url=http://localhost:8080/SpringMvcRestAnnotationExample/rest/emp/11
+
+url=http://localhost:8080/SpringMvcRestAnnotationExample/rest/emp/delete/11
+
+update url=http://localhost:8080/SpringMvcRestAnnotationExample/rest/emp/update
+set the header param value
+Content-Type : application/json
+{"id":"101","name":"adarsh kumar singh","createdDate":"1223334444"}

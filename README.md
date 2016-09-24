@@ -7,6 +7,7 @@ EMAIL : ADARSHKUMARSINGH83@GMAIL.COM
 
 SPRING MVC   
 ---------------------------------------------
+- Spring Mvc Rest Annotation Example
 - Spring Mvc Rest Xml Example
 - Spring Web Mvc Xml Example
 - Spring Web Mvc Annotation Example
