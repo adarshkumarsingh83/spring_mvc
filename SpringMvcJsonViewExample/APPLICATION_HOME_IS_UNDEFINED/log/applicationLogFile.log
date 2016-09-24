@@ -1,0 +1,3 @@
+2016-09-24_22:39:44.270 [main] INFO  c.e.a.s.j.JsonViewSupportFactoryBean [JsonViewSupportFactoryBean.java:51]- JsonView decorator support wired up
+2016-09-24_22:54:25.608 [main] INFO  c.e.a.s.j.JsonViewSupportFactoryBean [JsonViewSupportFactoryBean.java:51]- JsonView decorator support wired up
+2016-09-24_23:39:19.808 [main] INFO  c.e.a.s.j.JsonViewSupportFactoryBean [JsonViewSupportFactoryBean.java:51]- JsonView decorator support wired up

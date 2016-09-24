@@ -1,0 +1,23 @@
+mvn clean package
+mvn jetty:run
+
+-------------------------------------
+http://localhost:8080/SpringMvcJsonViewExample/index.jsp
+-------------------------------------------------------------
+
+http://localhost:8080/SpringMvcJsonViewExample/employee/{employeeId}/data
+
+http://localhost:8080/SpringMvcJsonViewExample/employee/detail/{employeeId}/data
+
+http://localhost:8080/SpringMvcJsonViewExample/employee/all
+
+http://localhost:8080/SpringMvcJsonViewExample/employee/detail/all
+
+
+http://localhost:8080/SpringMvcJsonViewExample/department/{departmentId}
+
+http://localhost:8080/SpringMvcJsonViewExample/department/detail/{departmentId}
+
+http://localhost:8080/SpringMvcJsonViewExample/department/all
+
+http://localhost:8080/SpringMvcJsonViewExample/department/detail/all

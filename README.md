@@ -7,6 +7,7 @@ EMAIL : ADARSHKUMARSINGH83@GMAIL.COM
 
 SPRING MVC   
 ---------------------------------------------
+- Spring Mvc Json View Example
 - Spring Mvc Rest Global Exception Handling
 - Spring Mvc Rest Local Exception Handling
 - Spring Web Mvc Global Exception Handling
