@@ -13,7 +13,7 @@
         <project.name>spring-web-mvc-basic</project.name>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <spring.web.mvc>5.1.0.RELEASE</spring.web.mvc>
+        <spring.web.mvc>5.2.20.RELEASE</spring.web.mvc>
         <servlet>3.1.0</servlet>
         <servlet.jsp>2.3.1</servlet.jsp>
         <servlet.jstl>1.2.1</servlet.jstl>
